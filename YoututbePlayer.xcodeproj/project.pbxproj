@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3082E7D14BA00CBFFF478223 /* libPods-YoututbePlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AFDA4758ADF88CA79C2B7D6 /* libPods-YoututbePlayer.a */; };
+		F83EAA6B1EB9D3AC00BECD94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA6A1EB9D3AC00BECD94 /* main.m */; };
+		F83EAA6E1EB9D3AC00BECD94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA6D1EB9D3AC00BECD94 /* AppDelegate.m */; };
+		F83EAA711EB9D3AC00BECD94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA701EB9D3AC00BECD94 /* ViewController.m */; };
+		F83EAA741EB9D3AC00BECD94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83EAA721EB9D3AC00BECD94 /* Main.storyboard */; };
+		F83EAA761EB9D3AC00BECD94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83EAA751EB9D3AC00BECD94 /* Assets.xcassets */; };
+		F83EAA791EB9D3AC00BECD94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83EAA771EB9D3AC00BECD94 /* LaunchScreen.storyboard */; };
+		F83EAA841EB9D5C400BECD94 /* DropdownList.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA821EB9D5C400BECD94 /* DropdownList.m */; };
+		F83EAA851EB9D5C400BECD94 /* DropdownList.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83EAA831EB9D5C400BECD94 /* DropdownList.xib */; };
+		F83EAA8D1EB9D7A600BECD94 /* XMLReader.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA8B1EB9D7A600BECD94 /* XMLReader.m */; };
+		F83EAA951EB9D97900BECD94 /* list.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA931EB9D97900BECD94 /* list.m */; };
+		F83EAA961EB9D97900BECD94 /* list.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83EAA941EB9D97900BECD94 /* list.xib */; };
+		F83EAA9B1EB9DAB800BECD94 /* SearchCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA991EB9DAB800BECD94 /* SearchCellTableViewCell.m */; };
+		F83EAA9C1EB9DAB800BECD94 /* SearchCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83EAA9A1EB9DAB800BECD94 /* SearchCellTableViewCell.xib */; };
+		F83EAAA11EB9DE0300BECD94 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EAA9F1EB9DE0300BECD94 /* VideoPlayerViewController.m */; };
+		F83EAAA21EB9DE0300BECD94 /* VideoPlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F83EAAA01EB9DE0300BECD94 /* VideoPlayerViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6AFDA4758ADF88CA79C2B7D6 /* libPods-YoututbePlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YoututbePlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		997055677C8EF173757B491D /* Pods-YoututbePlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoututbePlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YoututbePlayer/Pods-YoututbePlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		C9EC2F3F4234B6B14855FD5F /* Pods-YoututbePlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YoututbePlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-YoututbePlayer/Pods-YoututbePlayer.release.xcconfig"; sourceTree = "<group>"; };
+		F83EAA661EB9D3AC00BECD94 /* YoututbePlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoututbePlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83EAA6A1EB9D3AC00BECD94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F83EAA6C1EB9D3AC00BECD94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F83EAA6D1EB9D3AC00BECD94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F83EAA6F1EB9D3AC00BECD94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F83EAA701EB9D3AC00BECD94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F83EAA731EB9D3AC00BECD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F83EAA751EB9D3AC00BECD94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F83EAA781EB9D3AC00BECD94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F83EAA7A1EB9D3AC00BECD94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83EAA811EB9D5C400BECD94 /* DropdownList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropdownList.h; sourceTree = "<group>"; };
+		F83EAA821EB9D5C400BECD94 /* DropdownList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropdownList.m; sourceTree = "<group>"; };
+		F83EAA831EB9D5C400BECD94 /* DropdownList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropdownList.xib; sourceTree = "<group>"; };
+		F83EAA8A1EB9D7A600BECD94 /* XMLReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLReader.h; sourceTree = "<group>"; };
+		F83EAA8B1EB9D7A600BECD94 /* XMLReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLReader.m; sourceTree = "<group>"; };
+		F83EAA921EB9D97900BECD94 /* list.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = list.h; sourceTree = "<group>"; };
+		F83EAA931EB9D97900BECD94 /* list.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = list.m; sourceTree = "<group>"; };
+		F83EAA941EB9D97900BECD94 /* list.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = list.xib; sourceTree = "<group>"; };
+		F83EAA981EB9DAB800BECD94 /* SearchCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchCellTableViewCell.h; sourceTree = "<group>"; };
+		F83EAA991EB9DAB800BECD94 /* SearchCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchCellTableViewCell.m; sourceTree = "<group>"; };
+		F83EAA9A1EB9DAB800BECD94 /* SearchCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchCellTableViewCell.xib; sourceTree = "<group>"; };
+		F83EAA9E1EB9DE0300BECD94 /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		F83EAA9F1EB9DE0300BECD94 /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
+		F83EAAA01EB9DE0300BECD94 /* VideoPlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VideoPlayerViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83EAA631EB9D3AC00BECD94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3082E7D14BA00CBFFF478223 /* libPods-YoututbePlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8586AC42899FD7EFB229A2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AFDA4758ADF88CA79C2B7D6 /* libPods-YoututbePlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D70BC7A0CB9B20A7A1768ABD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				997055677C8EF173757B491D /* Pods-YoututbePlayer.debug.xcconfig */,
+				C9EC2F3F4234B6B14855FD5F /* Pods-YoututbePlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F83EAA5D1EB9D3AC00BECD94 = {
+			isa = PBXGroup;
+			children = (
+				F83EAA9D1EB9DDE400BECD94 /* Player */,
+				F83EAA801EB9D59E00BECD94 /* FirstView */,
+				F83EAA971EB9DA9100BECD94 /* SearchListCell */,
+				F83EAA8C1EB9D7A600BECD94 /* XmlReader */,
+				F83EAA681EB9D3AC00BECD94 /* YoututbePlayer */,
+				F83EAA671EB9D3AC00BECD94 /* Products */,
+				D70BC7A0CB9B20A7A1768ABD /* Pods */,
+				8586AC42899FD7EFB229A2E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F83EAA671EB9D3AC00BECD94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA661EB9D3AC00BECD94 /* YoututbePlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83EAA681EB9D3AC00BECD94 /* YoututbePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA6C1EB9D3AC00BECD94 /* AppDelegate.h */,
+				F83EAA6D1EB9D3AC00BECD94 /* AppDelegate.m */,
+				F83EAA6F1EB9D3AC00BECD94 /* ViewController.h */,
+				F83EAA701EB9D3AC00BECD94 /* ViewController.m */,
+				F83EAA721EB9D3AC00BECD94 /* Main.storyboard */,
+				F83EAA751EB9D3AC00BECD94 /* Assets.xcassets */,
+				F83EAA771EB9D3AC00BECD94 /* LaunchScreen.storyboard */,
+				F83EAA7A1EB9D3AC00BECD94 /* Info.plist */,
+				F83EAA691EB9D3AC00BECD94 /* Supporting Files */,
+			);
+			path = YoututbePlayer;
+			sourceTree = "<group>";
+		};
+		F83EAA691EB9D3AC00BECD94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA6A1EB9D3AC00BECD94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F83EAA801EB9D59E00BECD94 /* FirstView */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA811EB9D5C400BECD94 /* DropdownList.h */,
+				F83EAA821EB9D5C400BECD94 /* DropdownList.m */,
+				F83EAA831EB9D5C400BECD94 /* DropdownList.xib */,
+				F83EAA911EB9D95100BECD94 /* SearchList */,
+			);
+			name = FirstView;
+			sourceTree = "<group>";
+		};
+		F83EAA8C1EB9D7A600BECD94 /* XmlReader */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA8A1EB9D7A600BECD94 /* XMLReader.h */,
+				F83EAA8B1EB9D7A600BECD94 /* XMLReader.m */,
+			);
+			name = XmlReader;
+			path = "Pods/../../../sample video/Web";
+			sourceTree = "<group>";
+		};
+		F83EAA911EB9D95100BECD94 /* SearchList */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA921EB9D97900BECD94 /* list.h */,
+				F83EAA931EB9D97900BECD94 /* list.m */,
+				F83EAA941EB9D97900BECD94 /* list.xib */,
+			);
+			name = SearchList;
+			sourceTree = "<group>";
+		};
+		F83EAA971EB9DA9100BECD94 /* SearchListCell */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA981EB9DAB800BECD94 /* SearchCellTableViewCell.h */,
+				F83EAA991EB9DAB800BECD94 /* SearchCellTableViewCell.m */,
+				F83EAA9A1EB9DAB800BECD94 /* SearchCellTableViewCell.xib */,
+			);
+			name = SearchListCell;
+			sourceTree = "<group>";
+		};
+		F83EAA9D1EB9DDE400BECD94 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				F83EAA9E1EB9DE0300BECD94 /* VideoPlayerViewController.h */,
+				F83EAA9F1EB9DE0300BECD94 /* VideoPlayerViewController.m */,
+				F83EAAA01EB9DE0300BECD94 /* VideoPlayerViewController.xib */,
+			);
+			name = Player;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83EAA651EB9D3AC00BECD94 /* YoututbePlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83EAA7D1EB9D3AC00BECD94 /* Build configuration list for PBXNativeTarget "YoututbePlayer" */;
+			buildPhases = (
+				2C380CE0F4F316A9B7F84351 /* [CP] Check Pods Manifest.lock */,
+				F83EAA621EB9D3AC00BECD94 /* Sources */,
+				F83EAA631EB9D3AC00BECD94 /* Frameworks */,
+				F83EAA641EB9D3AC00BECD94 /* Resources */,
+				428E80D8A44B181687ADE9A6 /* [CP] Embed Pods Frameworks */,
+				CDE713546C6E2DECAD3032EF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoututbePlayer;
+			productName = YoututbePlayer;
+			productReference = F83EAA661EB9D3AC00BECD94 /* YoututbePlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83EAA5E1EB9D3AC00BECD94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = sinergiasinergia;
+				TargetAttributes = {
+					F83EAA651EB9D3AC00BECD94 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F83EAA611EB9D3AC00BECD94 /* Build configuration list for PBXProject "YoututbePlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F83EAA5D1EB9D3AC00BECD94;
+			productRefGroup = F83EAA671EB9D3AC00BECD94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83EAA651EB9D3AC00BECD94 /* YoututbePlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83EAA641EB9D3AC00BECD94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83EAA961EB9D97900BECD94 /* list.xib in Resources */,
+				F83EAA791EB9D3AC00BECD94 /* LaunchScreen.storyboard in Resources */,
+				F83EAA761EB9D3AC00BECD94 /* Assets.xcassets in Resources */,
+				F83EAA9C1EB9DAB800BECD94 /* SearchCellTableViewCell.xib in Resources */,
+				F83EAAA21EB9DE0300BECD94 /* VideoPlayerViewController.xib in Resources */,
+				F83EAA851EB9D5C400BECD94 /* DropdownList.xib in Resources */,
+				F83EAA741EB9D3AC00BECD94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C380CE0F4F316A9B7F84351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		428E80D8A44B181687ADE9A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoututbePlayer/Pods-YoututbePlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDE713546C6E2DECAD3032EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YoututbePlayer/Pods-YoututbePlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83EAA621EB9D3AC00BECD94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83EAA711EB9D3AC00BECD94 /* ViewController.m in Sources */,
+				F83EAAA11EB9DE0300BECD94 /* VideoPlayerViewController.m in Sources */,
+				F83EAA6E1EB9D3AC00BECD94 /* AppDelegate.m in Sources */,
+				F83EAA9B1EB9DAB800BECD94 /* SearchCellTableViewCell.m in Sources */,
+				F83EAA8D1EB9D7A600BECD94 /* XMLReader.m in Sources */,
+				F83EAA841EB9D5C400BECD94 /* DropdownList.m in Sources */,
+				F83EAA6B1EB9D3AC00BECD94 /* main.m in Sources */,
+				F83EAA951EB9D97900BECD94 /* list.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F83EAA721EB9D3AC00BECD94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83EAA731EB9D3AC00BECD94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F83EAA771EB9D3AC00BECD94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83EAA781EB9D3AC00BECD94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83EAA7B1EB9D3AC00BECD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F83EAA7C1EB9D3AC00BECD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83EAA7E1EB9D3AC00BECD94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 997055677C8EF173757B491D /* Pods-YoututbePlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoututbePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinergia.YoututbePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F83EAA7F1EB9D3AC00BECD94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9EC2F3F4234B6B14855FD5F /* Pods-YoututbePlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YoututbePlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinergia.YoututbePlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83EAA611EB9D3AC00BECD94 /* Build configuration list for PBXProject "YoututbePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83EAA7B1EB9D3AC00BECD94 /* Debug */,
+				F83EAA7C1EB9D3AC00BECD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83EAA7D1EB9D3AC00BECD94 /* Build configuration list for PBXNativeTarget "YoututbePlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83EAA7E1EB9D3AC00BECD94 /* Debug */,
+				F83EAA7F1EB9D3AC00BECD94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83EAA5E1EB9D3AC00BECD94 /* Project object */;
+}

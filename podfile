@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+
+target 'YoututbePlayer' do
+pod 'youtube-ios-player-helper', '~> 0.1.1'
+end
